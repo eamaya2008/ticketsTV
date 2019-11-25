@@ -5,7 +5,6 @@ header{
   position: relative;
   width: 100%;
   display: block;
-  border-bottom: 1px solid #000;
   background-color:#b8dbec;
   height:70px;
 }
@@ -14,15 +13,53 @@ header{
   position: relative;
   width: 100%;
 }
-h1{
-  position: relative;
-  float: left;
-  margin-left: 25%;
+.ticketCerrado{
+  margin-left: 1%;
+  width: 98%;
+}
+.ticketCerradoCounter{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.ticketCerradoCounter h3{
+  text-align: center;
+  margin-bottom: 1%;
+}
+.ticketCerradosDia{
+  margin-top: 5%;
+  margin-left: 6%;
+}
+.tcd{
+  text-align: center;
+}
+.ticketCerradosUsu1{
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 2%;
+}
+.ticketCerradosUsu2{
+  margin-right: 9%;
+  margin-top: 2%;
+}
+.usu-name{
+  margin-bottom: 2%;
+}
+.usu-counter{
+  text-align: right;
+  margin-bottom: 2%;
+}
+.ticketAbiertosMes{
+  margin-top: 5%
 }
 #LogoCaseHeader{
   z-index: 2;
-  position: relative;
-  float: left;
+  margin-left: 40%;
   width: 300px;
   height: 100px;
+}
+#gif-sup{
+  z-index: 2;
 }

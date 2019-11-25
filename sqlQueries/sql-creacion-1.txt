@@ -1,0 +1,17 @@
+CREATE DATABASE `ticketstv` /*!40100 DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+CREATE TABLE `tkstatus` (
+  `tk_numero` int(10) DEFAULT NULL,
+  `tk_status` varchar(1) COLLATE latin1_spanish_ci DEFAULT NULL,
+  `tk_fecha_apertura` date DEFAULT NULL,
+  `tk_fecha_cierre` date DEFAULT NULL,
+  `tk_usu` varchar(45) COLLATE latin1_spanish_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+
+CREATE TABLE `tktvusu` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `usu_name` varchar(45) COLLATE latin1_spanish_ci DEFAULT NULL,
+  `usu_sex` varchar(1) COLLATE latin1_spanish_ci DEFAULT NULL,
+  `usu_SBDAname` varchar(45) COLLATE latin1_spanish_ci DEFAULT NULL,
+  UNIQUE KEY `id` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
