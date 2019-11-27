@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta http-equiv="refresh" content="60">
     <meta charset="utf-8">
     <title>Soporte</title>
     <link rel="stylesheet" href="/css/app.css">
@@ -28,52 +29,48 @@
             <div class="col-md-6 tcd">Cerrados</div>
           </div>
           <div class="row">
-            <div class="col-md-6 tcd">22</div>
-            <div class="col-md-6 tcd">33</div>
+            <div class="col-md-6 tcd">{{$tkA["tkAHoy"]}}</div>
+            <div class="col-md-6 tcd">{{$tkA["tkCHoy"]}}</div>
           </div>
         </div>
         <div class="ticketCerradosUsu1 col-md-1.5">
           <div class="row">
             <div class="col-md-6 usu-name">Federico</div>
-            <div class="col-md-6 usu-counter">150</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCFederico"]}}</div>
           </div>
           <div class="row">
             <div class="col-md-6 usu-name">Pablo</div>
-            <div class="col-md-6 usu-counter">150</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCPablo"]}}</div>
           </div>
           <div class="row">
             <div class="col-md-6 usu-name">Matias</div>
-            <div class="col-md-6 usu-counter">150</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCMatias"]}}</div>
           </div>
           <div class="row">
             <div class="col-md-6 usu-name">Esteban</div>
-            <div class="col-md-6 usu-counter">150</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCEsteban"]}}</div>
           </div>
           <div class="row">
             <div class="col-md-6 usu-name">Sebastian</div>
-            <div class="col-md-6 usu-counter">150</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCSebastian"]}}</div>
           </div>
         </div>
         <div class="ticketCerradosUsu2 col-md-1.5">
           <div class="row">
+            <div class="col-md-6 usu-name">Juan</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCJuan"]}}</div>
+          </div>
+          <div class="row">
             <div class="col-md-6 usu-name">Ivonne</div>
-            <div class="col-md-6 usu-counter">150</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCIvonne"]}}</div>
           </div>
           <div class="row">
             <div class="col-md-6 usu-name">Rosana</div>
-            <div class="col-md-6 usu-counter">150</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCRosana"]}}</div>
           </div>
           <div class="row">
             <div class="col-md-6 usu-name">Patricia</div>
-            <div class="col-md-6 usu-counter">150</div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 usu-name">Emilce</div>
-            <div class="col-md-6 usu-counter">150</div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 usu-name">Belen</div>
-            <div class="col-md-6 usu-counter">150</div>
+            <div class="col-md-6 usu-counter">{{$tkA["tkCPatricia"]}}</div>
           </div>
         </div>
         <div class="ticketAbiertosMes col-md-3">
@@ -84,15 +81,15 @@
           </div>
           <div class="row">
             <div class="col-md-8">Ayer</div>
-            <div class="col-md-4">125</div>
+            <div class="col-md-4">{{$tkA["tkAAyer"]}}</div>
           </div>
           <div class="row">
             <div class="col-md-8">Ultimos 7 dias</div>
-            <div class="col-md-4">125</div>
+            <div class="col-md-4">{{$tkA["tkA7"]}}</div>
           </div>
           <div class="row">
-            <div class="col-md-8">Ultimos 30 dias</div>
-            <div class="col-md-4">125</div>
+            <div class="col-md-8">Total historico</div>
+            <div class="col-md-4">{{$tkA["tkATotal"]}}</div>
           </div>
           </div>
           </div>
